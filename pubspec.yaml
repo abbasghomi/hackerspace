@@ -1,0 +1,38 @@
+name: hackerspace
+description: "A fun project to mimic a hacker's desktop."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  window_manager: ^0.3.7
+  animated_text_kit: ^4.2.2
+  google_fonts: ^6.1.0
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  dio: ^5.3.2
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+  uuid: ^4.1.0
+  collection: ^1.18.0
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  bloc_test: ^9.1.4
+  mocktail: ^1.0.1
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
